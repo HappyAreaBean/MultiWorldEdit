@@ -14,6 +14,7 @@ The library current has the following wrappers:
 - __ClipboardWrapper__
 - __RegionWrapper__
 - __EditSessionWrapper__
+- __LocalSessionWrapper__
 - __PasteBuilderWrapper__
 
 Each wrapper were created for multi-version cross comatibility in mind - here's the reasons for whose are interested:  
@@ -89,6 +90,9 @@ To get started
 ---
 1. Load the library with Maven/Gradle.
 
+<details>
+    <summary>jitpack.io</summary>
+
 ```xml
       <repositories>
         <repository>
@@ -99,14 +103,16 @@ To get started
     
       <dependencies>
         <dependency>
-            <groupId>com.github.Tofpu.MultiWorldEdit</groupId>
+            <groupId>com.github.HappyAreaBean.MultiWorldEdit</groupId>
             <artifactId>multiworldedit-api</artifactId>
-            <version>321a69d3e8</version>
+            <version>1.0.2</version>
         </dependency>
       </dependencies>
 ```
 
-2. Load the library on onLoad/onEnable via `WorldEditAPI.load(Plugin)` method (It's recommended to softdepend/depend WorldEdit on your plugin.yml).
+</details>
+
+2. Load the library on onLoad/onEnable via `MultiWorldEditAPI.load(Plugin)` method (It's recommended to softdepend/depend WorldEdit on your plugin.yml).
 
 Contributors
 ---
