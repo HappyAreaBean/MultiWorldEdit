@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.tofpu</groupId>
+        <groupId>cc.happyareabean</groupId>
         <artifactId>multiworldedit</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
     <artifactId>multiworldedit-api</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <build>
         <plugins>
@@ -50,9 +50,9 @@
         </dependency>
 
         <dependency>
-            <groupId>io.tofpu</groupId>
+            <groupId>cc.happyareabean</groupId>
             <artifactId>multiworldedit-v6</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.sk89.worldedit</groupId>
@@ -62,9 +62,9 @@
         </dependency>
 
         <dependency>
-            <groupId>io.tofpu</groupId>
+            <groupId>cc.happyareabean</groupId>
             <artifactId>multiworldedit-v7</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.sk89.worldedit</groupId>
