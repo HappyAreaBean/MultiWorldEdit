@@ -9,6 +9,7 @@ import com.sk89q.worldedit.regions.Region;
 import com.sk89q.worldedit.session.ClipboardHolder;
 import com.sk89q.worldedit.world.World;
 import com.sk89q.worldedit.world.registry.WorldData;
+import org.bukkit.entity.Player;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,6 +39,11 @@ public final class MultiWorldEditV6 implements MultiWorldEdit {
     @Override
     public EditSessionWrapper create(final World world, final int maxBlocks) {
         return new EditSessionWrapperV6(world, maxBlocks);
+    }
+
+    @Override
+    public LocalSessionWrapper create(Player player) {
+        return new LocalSessionWrapperV6(player);
     }
 
     @Override
